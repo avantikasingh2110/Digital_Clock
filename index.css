@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 200px;
+    font-size: 6.5rem;
+    border-radius: 15px;
+    color: aliceblue;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    background-image: url(./images/b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.am-pm {
+    font-size: 2.5rem;
+    margin-top: 35px;
+    margin-left: 15px;
+}
